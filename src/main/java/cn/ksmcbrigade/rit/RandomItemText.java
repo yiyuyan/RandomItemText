@@ -17,7 +17,7 @@ public class RandomItemText {
     public static final String ENGLISH_STRINGS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()?;:',<>./\\\"[]{}|-+=";
 
     public static boolean always = false;
-    public static int interval = 3000; //about 20 seconds
+    public static int interval = 300; //ticks
     public static boolean chinese = true;
 
     public RandomItemText() throws IOException {
