@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.ksmcbrigade.rit.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "rit.refmap.json",
+  "mixins": [
+    "ItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
