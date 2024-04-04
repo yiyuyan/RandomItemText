@@ -32,11 +32,11 @@ public class ItemMixin {
             change = true;
             randomItemText$restName = true;
         }
-        else if(randomItemText$nowInterval==0){
+        else if(RandomItemText.always && randomItemText$nowInterval==0){
             change = true;
             randomItemText$nowInterval = RandomItemText.interval;
         }
-        else{
+        else if(RandomItemText.always){
             randomItemText$nowInterval--;
         }
         if(change){
